@@ -17,3 +17,14 @@ def multa_fora_localidade(velocidade: float) -> int:
     elif velocidade > 90:
         return 60
     return 0
+
+def multa_autoestrada(velocidade: float) -> int:
+    if velocidade < 50:
+        return 0
+    elif velocidade > 175:
+        return 360
+    elif velocidade > 150:
+        return 120
+    elif velocidade > 120:
+        return 60
+    return 0
