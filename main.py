@@ -28,3 +28,12 @@ def multa_autoestrada(velocidade: float) -> int:
     elif velocidade > 120:
         return 60
     return 0
+
+def main():
+    while True:
+        print("Onde circulava o veículo?")
+        print("Escolha uma opção:")
+        print("1 - Localidade")
+        print("2 - Fora da localidade")
+        print("3 - Autoestrada")
+        print()
